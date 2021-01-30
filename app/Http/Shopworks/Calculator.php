@@ -38,7 +38,6 @@ class Calculator
             $shift1 = $shiftBreaks[0]->getShift();
             $shift2 = $shiftBreaks[1]->getShift();
 
-dump('staring...');
             $endShift1 = new \DateTime($shift1->getEndTime());
             $startShift2 = new \DateTime($shift2->getStartTime());
 
