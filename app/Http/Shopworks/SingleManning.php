@@ -12,4 +12,9 @@ class SingleManning
     {
         $this->minutes = $minutes;
     }
+
+    public function getMinutes(): int
+    {
+        return $this->minutes;
+    }
 }
