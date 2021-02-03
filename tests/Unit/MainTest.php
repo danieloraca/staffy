@@ -16,7 +16,7 @@ class MainTest extends TestCase
     /** @var Shop */
     private $shop;
 
-    public function testScenario1(): void
+    public function testScenario1WhenOnlyOneStaff(): void
     {
         $this->shop = new Shop('Funhouse');
 
@@ -46,7 +46,7 @@ class MainTest extends TestCase
 
     }
 
-    public function testScenario2(): void
+    public function testScenario2WhenTwoEmployeesDifferentTime(): void
     {
         $this->shop = new Shop('Funhouse');
 
@@ -89,7 +89,7 @@ class MainTest extends TestCase
 
     }
 
-    public function testScenario3(): void
+    public function testScenario3WhenTwoEmployeeWorkTogether(): void
     {
         $this->shop = new Shop('Funhouse');
 
@@ -132,7 +132,7 @@ class MainTest extends TestCase
 
     }
 
-    public function testScenario4(): void
+    public function testScenario4WhenTwoEmployeesWorkTogetherDifferentShiftBreak(): void
     {
         $this->shop = new Shop('Funhouse');
 
